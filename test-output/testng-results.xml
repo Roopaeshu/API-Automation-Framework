@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-09T21:49:39 IST" name="Suite" finished-at="2026-06-09T21:49:55 IST" duration-ms="15268">
+    <groups>
+    </groups>
+    <test started-at="2026-06-09T21:49:39 IST" name="Test" finished-at="2026-06-09T21:49:55 IST" duration-ms="15268">
+      <class name="tests.ECommerceAPITest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:38 IST" name="beforeSuite" finished-at="2026-06-09T21:49:39 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:39 IST" name="beforeMethod" finished-at="2026-06-09T21:49:39 IST" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ECommerceAPITest.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:39 IST" name="loginTest" finished-at="2026-06-09T21:49:48 IST" duration-ms="8969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethods(org.testng.ITestResult)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:48 IST" name="afterMethods" finished-at="2026-06-09T21:49:48 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=ECommerceAPITest.loginTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:48 IST" name="beforeMethod" finished-at="2026-06-09T21:49:48 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ECommerceAPITest.createProductTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createProductTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:48 IST" name="createProductTest" finished-at="2026-06-09T21:49:53 IST" depends-on-methods="tests.ECommerceAPITest.loginTest" duration-ms="4707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method is-config="true" signature="afterMethods(org.testng.ITestResult)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:53 IST" name="afterMethods" finished-at="2026-06-09T21:49:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createProductTest status=SUCCESS method=ECommerceAPITest.createProductTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:53 IST" name="beforeMethod" finished-at="2026-06-09T21:49:53 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ECommerceAPITest.createOrderTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrderTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:53 IST" name="createOrderTest" finished-at="2026-06-09T21:49:54 IST" depends-on-methods="createProductTest()" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderTest -->
+        <test-method is-config="true" signature="afterMethods(org.testng.ITestResult)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:54 IST" name="afterMethods" finished-at="2026-06-09T21:49:54 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createOrderTest status=SUCCESS method=ECommerceAPITest.createOrderTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:54 IST" name="beforeMethod" finished-at="2026-06-09T21:49:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ECommerceAPITest.deleteProductTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteProductTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:54 IST" name="deleteProductTest" finished-at="2026-06-09T21:49:54 IST" depends-on-methods="createProductTest()" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProductTest -->
+        <test-method is-config="true" signature="afterMethods(org.testng.ITestResult)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:54 IST" name="afterMethods" finished-at="2026-06-09T21:49:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteProductTest status=SUCCESS method=ECommerceAPITest.deleteProductTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:54 IST" name="beforeMethod" finished-at="2026-06-09T21:49:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ECommerceAPITest.viewOrderTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="viewOrderTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:54 IST" name="viewOrderTest" finished-at="2026-06-09T21:49:55 IST" depends-on-methods="createOrderTest()" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewOrderTest -->
+        <test-method is-config="true" signature="afterMethods(org.testng.ITestResult)[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:55 IST" name="afterMethods" finished-at="2026-06-09T21:49:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewOrderTest status=SUCCESS method=ECommerceAPITest.viewOrderTest()[pri:0, instance:tests.ECommerceAPITest@44a2b17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.ECommerceAPITest@44a2b17b]" started-at="2026-06-09T21:49:55 IST" name="afterSuite" finished-at="2026-06-09T21:49:56 IST" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.ECommerceAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
